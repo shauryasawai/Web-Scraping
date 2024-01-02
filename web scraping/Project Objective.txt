@@ -1,0 +1,31 @@
+1)Objective:-
+
+The objective of this assignment is to extract textual data articles from the given URL and perform text analysis to compute variables that are explained below. 
+
+
+2)Data Extraction:-
+
+For the article, with url:-  (https://insights.blackcoffer.com/rising-it-cities-and-its-impact-on-the-economy-environment-infrastructure-and-city-life-by-the-year-2040-2/,)   extract the article text and save the extracted article in a text file with URL_ID(blackassign0001) as its file name.
+
+Note:- While extracting text, please make sure your program extracts only the article title and the article text. It should not extract the website header, footer. 
+
+
+3)Data Analysis:-
+
+For each of the extracted texts from the article, perform textual analysis and compute variables.
+
+4)Variables:-
+
+POSITIVE SCORE- This score is calculated by assigning the value of +1 for each word if found in the Positive Dictionary and then adding up all the values
+
+NEGATIVE SCORE- This score is calculated by assigning the value of -1 for each word if found in the Negative Dictionary and then adding up all the values. We multiply the score with -1 so that the score is a positive number.
+
+Polarity Score: This is the score that determines if a given text is positive or negative in nature. It is calculated by using the formula: Polarity Score = (Positive Score – Negative Score)/ ((Positive Score + Negative Score) 
+
+
+
+
+
+
+
+
